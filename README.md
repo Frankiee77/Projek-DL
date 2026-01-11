@@ -2,15 +2,15 @@
 # Sentiment Analysis Ulasan Aplikasi Ludo King (Google Play Store)
 
 ## 📌 Latar Belakang
-Perkembangan teknologi informasi dan komunikasi telah mendorong pertumbuhan aplikasi mobile secara signifikan. Platform distribusi aplikasi seperti Google Play Store memungkinkan pengguna untuk memberikan ulasan dan penilaian terhadap aplikasi yang mereka gunakan. Ulasan pengguna tersebut berisi opini, pengalaman, serta evaluasi terhadap kualitas aplikasi, sehingga dapat dimanfaatkan sebagai sumber informasi penting bagi pengembang dalam melakukan evaluasi dan peningkatan kualitas layanan aplikasi secara berkelanjutan (Liu, 2012).
+Perkembangan teknologi digital dan internet telah mendorong pertumbuhan interaksi digital yang sangat pesat, terutama pada platform distribusi aplikasi mobile seperti Google Play Store. Ulasan yang ditinggalkan oleh pengguna mengandung opini dan evaluasi pengalaman nyata terhadap aplikasi yang digunakan, sehingga menjadi sumber data kualitatif penting untuk menilai kepuasan pengguna serta permasalahan yang dialami. Namun, volume ulasan yang sangat besar menyulitkan analisis manual karena memerlukan waktu, tenaga, serta konsistensi yang tinggi (Alfatah, 2024).
 
-Aplikasi Ludo King merupakan salah satu permainan mobile yang sangat populer di Indonesia dengan jumlah pengguna yang sangat besar. Tingginya jumlah pengguna tersebut menyebabkan aplikasi ini menerima ribuan hingga puluhan ribu ulasan yang memiliki variasi sentimen, mulai dari ulasan positif terkait keseruan permainan, ulasan netral, hingga ulasan negatif yang berisi keluhan seperti bug, gangguan sistem, maupun iklan yang berlebihan. Banyaknya jumlah ulasan tersebut membuat proses analisis sentimen secara manual menjadi tidak efisien, memakan waktu, dan rentan terhadap subjektivitas (Zhang et al., 2018).
+Dalam konteks aplikasi mobile populer seperti Ludo King, ribuan ulasan pengguna yang tersedia di Play Store memiliki ragam sentimen yang berbeda-beda — dari ulasan positif, netral, hingga negatif — yang mencerminkan persepsi pengguna terhadap kualitas pengalaman bermain dan fitur aplikasi itu sendiri. Variasi ini menunjukkan kompleksitas bahasa dan ekspresi dalam ulasan yang tidak mudah ditangani secara tradisional tanpa dukungan teknik otomatis (Dhendra & Utomo, 2025).
 
-Untuk mengatasi permasalahan tersebut, diperlukan suatu pendekatan otomatis yang mampu menganalisis opini pengguna dalam jumlah besar secara cepat dan akurat. Analisis sentimen merupakan salah satu cabang dari Natural Language Processing (NLP) yang bertujuan untuk mengidentifikasi dan mengklasifikasikan polaritas sentimen dalam teks ke dalam kategori tertentu, seperti positif, netral, dan negatif. Teknik analisis sentimen telah banyak diterapkan dalam berbagai bidang, termasuk analisis media sosial, evaluasi produk, serta pengukuran kepuasan pengguna aplikasi (Pang & Lee, 2008).
+Untuk mengatasi permasalahan tersebut, analisis sentimen menjadi teknik komputasi utama dalam Natural Language Processing (NLP) yang bertujuan untuk mengklasifikasikan teks berdasarkan polaritas sentimen seperti positif, netral, dan negatif. Teknik ini telah digunakan secara luas dalam penelitian terbaru untuk menganalisis opini pengguna pada media sosial maupun ulasan aplikasi mobile, termasuk pendekatan berbasis LSTM dan Transformer yang menunjukkan kemampuan untuk menangkap konteks bahasa alami dengan lebih akurat dibandingkan metode klasik seperti Naïve Bayes atau SVM (Malasari & Ramli, 2025).
 
-Seiring dengan perkembangan teknologi machine learning, metode deep learning semakin banyak digunakan dalam analisis sentimen karena kemampuannya dalam memahami konteks bahasa yang kompleks. Model Recurrent Neural Network (RNN), khususnya Bidirectional Long Short-Term Memory (Bi-LSTM), mampu memproses informasi teks dari dua arah sehingga lebih efektif dalam memahami hubungan antar kata dalam suatu kalimat (Hochreiter & Schmidhuber, 1997). Selain itu, model berbasis Transformer seperti BERT (Bidirectional Encoder Representations from Transformers) menunjukkan performa yang sangat unggul dalam berbagai tugas NLP karena mampu memahami konteks kalimat secara mendalam melalui mekanisme attention (Devlin et al., 2019).
+Dalam beberapa tahun terakhir, teknik deep learning dan model Transformer telah menunjukkan performa yang unggul dalam tugas analisis sentimen dan ekstraksi fitur konteks teks. Model seperti BERT dan turunannya, termasuk IndoBERT yang dilatih khusus untuk bahasa Indonesia, telah berhasil mengungguli pendekatan konvensional dalam klasifikasi ulasan berbahasa Indonesia dalam berbagai domain aplikasi digital. Penelitian benchmarking terbaru menunjukkan bahwa model ini memiliki akurasi dan F1-score yang lebih tinggi dibandingkan model Bi-LSTM dan model klasik lainnya (Dhendra & Utomo, 2025).
 
-Berdasarkan latar belakang tersebut, proyek ini bertujuan untuk melakukan analisis sentimen terhadap ulasan pengguna aplikasi Ludo King yang diambil dari Google Play Store dengan fokus pada bahasa Indonesia. Penelitian ini membandingkan performa beberapa pendekatan model, yaitu IndoBERT baseline, Bi-LSTM, dan IndoBERT yang dioptimasi, guna mengetahui model yang paling efektif dalam mengklasifikasikan sentimen ulasan pengguna. Diharapkan hasil dari proyek ini dapat memberikan gambaran mengenai efektivitas penerapan model deep learning dalam analisis sentimen berbahasa Indonesia serta menjadi referensi bagi penelitian dan pengembangan sistem analisis opini otomatis di masa mendatang (Wilie et al., 2020).
+Berdasarkan latar belakang tersebut, proyek ini bertujuan untuk melakukan analisis sentimen ulasan pengguna aplikasi Ludo King yang diambil dari Google Play Store dengan fokus pada bahasa Indonesia. Proyek ini membandingkan performa beberapa model yaitu IndoBERT baseline, Bi-LSTM, dan IndoBERT yang dioptimasi, guna mengetahui model yang paling efektif dalam mengklasifikasikan sentimen ulasan pengguna. Hasil penelitian diharapkan dapat memberikan gambaran yang lebih komprehensif mengenai efektivitas penggunaan model deep learning dalam analisis sentimen berbahasa Indonesia serta kontribusi terhadap pengembangan sistem analisis opini otomatis di bidang industri perangkat lunak dan evaluasi aplikasi digital (Alfatah, 2024; Dhendra & Utomo, 2025).
 
 ---
 
@@ -73,24 +73,19 @@ Hasil eksperimen menunjukkan bahwa:
 ---
 
 ## 📚 Sitasi
-- Liu, B. (2012). Sentiment Analysis and Opinion Mining. Morgan & Claypool.
+- Alfatah, D. (2024). Application of Transformer Model for Sentiment Detection on Indonesian Twitter Data. Jurnal Komputer, 2(2).
 
-- Pang, B., & Lee, L. (2008). Opinion Mining and Sentiment Analysis. Foundations and Trends in Information Retrieval.
+- Dhendra & Utomo, V. G. (2025). Benchmarking IndoBERT and Transformer Models for Sentiment Classification on Indonesian E-Government Service Reviews. Jurnal Transformatika, 23(1).
 
-- Zhang, L., Wang, S., & Liu, B. (2018). Deep learning for sentiment analysis: A survey. IEEE Transactions.
+- Malasari, N. & Ramli, M. (2025). Analisis Sentimen Media Sosial Menggunakan Algoritma BERT dan LSTM. Journal of Computer Science and Information Technology.
 
-- Hochreiter, S., & Schmidhuber, J. (1997). Long Short-Term Memory. Neural Computation.
-
-- Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
-
-- Wilie, B., et al. (2020). IndoBERT: A Pretrained Language Model for Indonesian.
+- Widyananda et al. (2025). Machine Learning and Transformer-based Model for Sentiment Analysis of Indonesian E-Commerce Reviews. The Indonesian Journal of Computer Science.
+  
 - Google Play Scraper  
   https://github.com/JoMingyu/google-play-scraper
 
 - IndoBERT  
   https://huggingface.co/indobenchmark/indobert-base-p2
-
-- Devlin et al., 2019. *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.*
 
 - Hugging Face Transformers  
   https://huggingface.co/docs/transformers
