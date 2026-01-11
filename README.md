@@ -1,10 +1,10 @@
 # Projek-DL
-# Sentiment Analysis Ulasan Aplikasi Ludo King (Google Play Store)
+# Sentiment Analysis Ulasan Aplikasi Honor of King (Google Play Store)
 
 ## 📌 Latar Belakang
 Perkembangan teknologi digital dan internet telah mendorong pertumbuhan interaksi digital yang sangat pesat, terutama pada platform distribusi aplikasi mobile seperti Google Play Store. Ulasan yang ditinggalkan oleh pengguna mengandung opini dan evaluasi pengalaman nyata terhadap aplikasi yang digunakan, sehingga menjadi sumber data kualitatif penting untuk menilai kepuasan pengguna serta permasalahan yang dialami. Namun, volume ulasan yang sangat besar menyulitkan analisis manual karena memerlukan waktu, tenaga, serta konsistensi yang tinggi (Alfatah, 2024).
 
-Dalam konteks aplikasi mobile populer seperti Ludo King, ribuan ulasan pengguna yang tersedia di Play Store memiliki ragam sentimen yang berbeda-beda — dari ulasan positif, netral, hingga negatif — yang mencerminkan persepsi pengguna terhadap kualitas pengalaman bermain dan fitur aplikasi itu sendiri. Variasi ini menunjukkan kompleksitas bahasa dan ekspresi dalam ulasan yang tidak mudah ditangani secara tradisional tanpa dukungan teknik otomatis (Dhendra & Utomo, 2025).
+Dalam konteks aplikasi mobile populer seperti Honor of King, ribuan ulasan pengguna yang tersedia di Play Store memiliki ragam sentimen yang berbeda-beda — dari ulasan positif, netral, hingga negatif — yang mencerminkan persepsi pengguna terhadap kualitas pengalaman bermain dan fitur aplikasi itu sendiri. Variasi ini menunjukkan kompleksitas bahasa dan ekspresi dalam ulasan yang tidak mudah ditangani secara tradisional tanpa dukungan teknik otomatis (Dhendra & Utomo, 2025).
 
 Untuk mengatasi permasalahan tersebut, analisis sentimen menjadi teknik komputasi utama dalam Natural Language Processing (NLP) yang bertujuan untuk mengklasifikasikan teks berdasarkan polaritas sentimen seperti positif, netral, dan negatif. Teknik ini telah digunakan secara luas dalam penelitian terbaru untuk menganalisis opini pengguna pada media sosial maupun ulasan aplikasi mobile, termasuk pendekatan berbasis LSTM dan Transformer yang menunjukkan kemampuan untuk menangkap konteks bahasa alami dengan lebih akurat dibandingkan metode klasik seperti Naïve Bayes atau SVM (Malasari & Ramli, 2025).
 
@@ -18,7 +18,7 @@ Berdasarkan latar belakang tersebut, proyek ini bertujuan untuk melakukan analis
 
 ### 1. Pengambilan Data (Scraping)
 Data ulasan diperoleh dari Google Play Store menggunakan library `google-play-scraper`. Parameter scraping yang digunakan:
-- Aplikasi: Ludo King (`com.ludo.king`)
+- Aplikasi: Honor of King (`com.levelinfinite.sgameGlobal`)
 - Bahasa: Indonesia
 - Negara: Indonesia
 - Jumlah data: ±10.000 ulasan terbaru
