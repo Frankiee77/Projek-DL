@@ -1,5 +1,4 @@
 # Projek-DL
-# sentiment-analysis-ludo-king
 # Sentiment Analysis Ulasan Aplikasi Ludo King (Google Play Store)
 
 ## 📌 Latar Belakang
@@ -47,21 +46,8 @@ Hasil preprocessing digunakan sebagai input model.
 
 ## 🤖 Model
 
-Pada proyek ini digunakan tiga pendekatan model untuk analisis sentimen:
-
-### 1. IndoBERT Baseline
-- Model: `indobenchmark/indobert-base-p2`
-- Epoch: 3
-- Split data: 80% data latih, 20% data uji
-
-### 2. Bidirectional LSTM (Bi-LSTM)
-- Embedding Layer
-- Dua lapisan Bi-LSTM
-- Dropout untuk mencegah overfitting
-- Dense layer dengan softmax
-- Split data: 70% data latih, 30% data uji
-
-### 3. IndoBERT Optimized
+Pada proyek ini digunakan satu pendekatan model untuk analisis sentimen:
+### 1. IndoBERT Optimized
 - Model: `indobenchmark/indobert-base-p2`
 - Epoch: 10
 - Learning rate: 2e-5
