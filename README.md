@@ -73,7 +73,17 @@ Hasil eksperimen menunjukkan bahwa:
 ---
 
 ## 📚 Sitasi
+- Liu, B. (2012). Sentiment Analysis and Opinion Mining. Morgan & Claypool.
 
+- Pang, B., & Lee, L. (2008). Opinion Mining and Sentiment Analysis. Foundations and Trends in Information Retrieval.
+
+- Zhang, L., Wang, S., & Liu, B. (2018). Deep learning for sentiment analysis: A survey. IEEE Transactions.
+
+- Hochreiter, S., & Schmidhuber, J. (1997). Long Short-Term Memory. Neural Computation.
+
+- Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
+
+- Wilie, B., et al. (2020). IndoBERT: A Pretrained Language Model for Indonesian.
 - Google Play Scraper  
   https://github.com/JoMingyu/google-play-scraper
 
