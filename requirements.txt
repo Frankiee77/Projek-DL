@@ -1,0 +1,7 @@
+google-play-scraper==1.2.7
+transformers==4.57.3
+torch==2.9.0+cu126
+scikit-learn==1.6.1
+pandas==2.2.2
+matplotlib==3.10.0
+seaborn==0.13.2
